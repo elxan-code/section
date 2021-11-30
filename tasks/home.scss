@@ -1,0 +1,53 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+body{
+background-image: url(img/service-bg.jpg);
+ background-size: cover;
+
+}
+
+
+h4::before{
+    content: "";
+    height: 2px;
+    width: 38px;
+    position: absolute;
+    top: 7px;
+    left: -40px;
+    background: #d88364;
+    display: block;
+
+}
+
+.contanier{
+    .under{
+        padding: 200px;
+        h4{
+            color: rgba(255,255,255,.4);
+            position: relative;
+            margin-left: 40px;
+            font-size: 20px;
+        }
+        h1{ 
+            font-size: 40px;
+
+        span{
+                font-size: 40px;
+                color: orangered;
+        }
+                 color: white;
+        }
+        p{
+           color: rgba(255,255,255,.7);;
+           font-size: 20px;
+        }
+
+    }
+    
+}
